@@ -19,7 +19,7 @@ body {
 .section-desc{
     font-size: 12px;
     font-weight:500;
-    color: #00c89f;
+    color: #3CB371;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -83,12 +83,12 @@ body {
     text-align: center;
 }
 .banner-area h1{
-    color: #006449;
+    color: #32CD32	;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
     padding-top: 50px;
-    text-shadow: 2px 2px #333;
+    text-shadow: 2px 2px  #2E8B57;
 }
 .banner-area h2 {
     color: #ddd;
@@ -98,7 +98,7 @@ body {
     text-shadow: 2px 2px #333;
 }
 .banner-area span {
-    color: #00c89f;
+    color: #228B22;
 }
 .tel,
 .whats {
@@ -477,3 +477,64 @@ footer {
         margin: auto;
     }
 }
+
+.section-aboutus--right {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.section-aboutus--right img {
+    width: 30%; 
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
+.section-aboutus--right img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.section-aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.section-aboutus--left {
+    flex: 1;
+    min-width: 400px;
+}
+
+.section-aboutus--left p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.section-aboutus--right {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    min-width: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-aboutus--right img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.section-aboutus--right img:hover {
+    transform: scale(1.05);
+}
+
