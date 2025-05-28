@@ -27,12 +27,12 @@ a:hover {
   color: #006449; /* Exemplo de verde ao passar o mouse */
 }
 
-.banner-area h1{
+.h1{
     color:#228B22;
     text-shadow: 2px 2px #228B22;
 }
 
-.banner-area span {
+.span {
     color:#228B22;
 }
 
