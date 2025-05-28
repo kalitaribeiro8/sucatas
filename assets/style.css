@@ -1,13 +1,6 @@
 @media (max-width: 768px) {
   
-a h1{
-    color:#32CD32;
-    text-shadow: 2px 2px #228B22;
-}
 
-a span {
-    color:#228B22;
-}
   .contato {
     flex-direction: column;
     align-items: center;
@@ -22,7 +15,14 @@ a span {
     margin-bottom: 10px;
   }
 }
+a h1{
+    color:#32CD32;
+    text-shadow: 2px 2px #228B22;
+}
 
+a span {
+    color:#228B22;
+}
 a {
   text-decoration: none;
   color: white; 
