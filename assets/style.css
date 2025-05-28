@@ -32,6 +32,10 @@ a:hover {
     text-shadow: 2px 2px #228B22;
 }
 
+.banner-area span {
+    color:#228B22;
+}
+
 
 *{
     margin: 0;
