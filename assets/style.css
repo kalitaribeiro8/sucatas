@@ -1,7 +1,17 @@
 @media (max-width: 768px) {
   h1, h2, h3 {
     font-size: 24px;
-  }
+
+    color:#228B22;
+    text-shadow: 2px 2px #228B22;
+}
+
+.span {
+    color:#228B22;
+}
+
+
+  
   
   .contato {
     flex-direction: column;
@@ -25,15 +35,6 @@ a {
 
 a:hover {
   color: #006449; /* Exemplo de verde ao passar o mouse */
-}
-
-.h1{
-    color:#228B22;
-    text-shadow: 2px 2px #228B22;
-}
-
-.span {
-    color:#228B22;
 }
 
 
