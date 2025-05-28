@@ -1,15 +1,23 @@
 @media (max-width: 768px) {
   
- .h1 {
-    font-size: 24px;
-    color: #228B22;
+.banner-area h1{
+    color:#32CD32	;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
     text-shadow: 2px 2px #228B22;
-  }
-
-.span {
-    color: #228B22;
-  }
-
+}
+.banner-area h2 {
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 30px;
+    text-shadow: 2px 2px #333;
+}
+.banner-area span {
+    color:#228B22;
+}
   .contato {
     flex-direction: column;
     align-items: center;
