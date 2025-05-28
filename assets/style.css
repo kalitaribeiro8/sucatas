@@ -1,3 +1,33 @@
+@media (max-width: 768px) {
+  h1, h2, h3 {
+    font-size: 24px;
+  }
+  
+  .contato {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contato a {
+    font-size: 18px;
+  }
+
+  .icone {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white; /* Ou qualquer cor que combine com seu layout */
+}
+
+a:hover {
+  color: #00ff00; /* Exemplo de verde ao passar o mouse */
+}
+
+
 *{
     margin: 0;
     padding: 0;
