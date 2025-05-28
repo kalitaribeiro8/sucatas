@@ -1,12 +1,12 @@
 @media (max-width: 768px) {
   
-  .banner-area h1 {
+ .h1 {
     font-size: 24px;
     color: #228B22;
     text-shadow: 2px 2px #228B22;
   }
 
-  span {
+.span {
     color: #228B22;
   }
 
