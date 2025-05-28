@@ -83,12 +83,12 @@ body {
     text-align: center;
 }
 .banner-area h1{
-    color: #32CD32	;
+    color:#32CD32	;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
     padding-top: 50px;
-    text-shadow: 2px 2px  #2E8B57;
+    text-shadow: 2px 2px #228B22;
 }
 .banner-area h2 {
     color: #ddd;
@@ -98,7 +98,7 @@ body {
     text-shadow: 2px 2px #333;
 }
 .banner-area span {
-    color: #228B22;
+    color:#228B22;
 }
 .tel,
 .whats {
