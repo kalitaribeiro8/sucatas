@@ -64,6 +64,19 @@
     }
 }
 
+/* Estilo normal do span */
+.banner-area--info span {
+    color:  #32CD32; /* exemplo: um amarelo destacado */
+}
+
+/* No mobile, mudar para branco */
+@media (max-width: 768px) {
+    .banner-area--info span {
+        color:  #32CD32;
+    }
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
