@@ -15,14 +15,21 @@
     margin-bottom: 10px;
   }
 }
-.h1{
-    color:#32CD32;
-    text-shadow: 2px 2px #228B22;
+.titulo {
+    color: #32CD32;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
-.span {
-    color:#228B22;
+.subtitulo {
+    color: #228B22;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
+.bloco-titulo {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
 a {
   text-decoration: none;
   color: white; 
