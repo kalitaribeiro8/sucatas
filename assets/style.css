@@ -1,15 +1,3 @@
-@media (max-width: 768px) {
-    .banner-area--info h1 {
-        font-size: 40px;
-    }
-    .banner-area--info h2 {
-        font-size: 20px;
-    }
-    .banner-area .box {
-        padding: 20px;
-    }
-}
-
 
 
 body {
