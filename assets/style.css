@@ -361,14 +361,31 @@ footer {
     }
 
     .banner-area h1 {
-        font-size: 20px;
+        font-size: 24px;
         padding-top: 20px;
-       
     }
 
     .banner-area h2 {
-        font-size: 11px; /* <-- Ajustado */
+        font-size: 18px;
         padding-top: 5px;
+    }
+
+    .banner-area--info {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner-area--info h1 {
+        font-size: 24px;
+    }
+
+    .banner-area--info h2 {
+        font-size: 18px;
+    }
+
+    .banner-area--info p {
+        font-size: 16px;
     }
 
     .section-aboutus {
@@ -400,44 +417,8 @@ footer {
     .footer-3 img {
         width: 60px;
     }
-
-    .banner-area--info {
-    position: absolute;
-    left: 40%;
-    transform: translateX(-50%);
-}
-@media (max-width: 850px) {
-    .banner-area h1 {
-        font-size: 24px;
-        padding-top: 20px;
-    }
-
-    .banner-area h2 {
-        font-size: 18px;
-        padding-top: 5px;
-    }
-
-    .banner-area--info {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .banner-area--info h1 {
-        font-size: 24px;
-    }
-
-    .banner-area--info h2 {
-        font-size: 18px;
-    }
-
-    .banner-area--info p {
-        font-size: 16px;
-    }
 }
 
-
-}
 
 /* ===================== ANIMAÇÕES ===================== */
 @keyframes clockwise {
