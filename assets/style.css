@@ -363,6 +363,7 @@ footer {
     .banner-area h1 {
         font-size: 20px;
         padding-top: 20px;
+       
     }
 
     .banner-area h2 {
@@ -399,6 +400,13 @@ footer {
     .footer-3 img {
         width: 60px;
     }
+
+    .banner-area--info {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 }
 
 /* ===================== ANIMAÇÕES ===================== */
