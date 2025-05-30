@@ -1,3 +1,28 @@
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.section-header--menu nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.section-header--menu nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .section-header--menu nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
 body {
