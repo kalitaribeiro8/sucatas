@@ -453,3 +453,19 @@ footer {
     background: transparent;
     box-shadow: inset 0px 0px 20px black;
 }
+.contact-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-button h2 {
+    font-size: 18px;
+    color: black;
+}
